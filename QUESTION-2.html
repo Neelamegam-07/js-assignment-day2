@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>DAY-2-ASSIGNMENT</title>
+        <h1>QUESTION-2</h1>
+    </head>
+    <body>
+        <h1>STRINGS</h1>
+        <script>
+            var str="Welcome to letsupgrade for free javascript course";
+            var n=str.search("letsupgrade");
+            console.log(n);
+            var m=str.replace("free","fcs");
+            console.log(m);
+            var k=str.repeat(2);
+            console.log(k);
+            var p=str.startsWith("Welcome");
+            console.log(p);
+            var str1="     hii letsupgrade     ";
+            var s=str1.trim();
+            console.log(s);
+        </script>
+        <h1>ARRAYS</h1>
+        <script>
+            var l=[1,2,3,4,5,6,8,23,67,79];
+            var q=l.copyWithin(2,0);
+            console.log(q);
+            function myfunction(g){
+                return g>3;
+            }
+            d=l.filter(myfunction);
+            console.log(d);
+            console.log(l.find(myfunction));
+            console.log(l.findIndex(myfunction));
+            var str2="letsupgrade";
+            var arr=Array.from(str2);
+            console.log(arr);
+            arr1=arr.join();
+            console.log(arr1);
+            console.log(l.includes(5));
+            var arr2=[4,2,57,86,35,67,53];
+            console.log(arr2.sort());
+            </script>
+    </body>
+</html>
